@@ -168,8 +168,10 @@ a:hover .social-contact {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .footer {
   width: 45%;
+  padding-top: 20px;
 }
 .footer-item {
   font-size: 12px;
@@ -229,7 +231,42 @@ a:hover .social-contact {
 .footer a:hover .social-contact i {
   color: #fff !important;
 }
-.social-contact i {
+.footer .social-contact i {
   padding-top: 5px;
   font-size: 15px;
+}
+.sub-footer {
+  background-color: #333132;
+  height: 50px;
+}
+.sub-footer .brand-image {
+  width: 100px;
+  padding-top: 10px;
+  margin-right: 0px;
+}
+.sub-footer img {
+  width: 75px;
+}
+.sub-footer-address {
+  padding-top: 12px;
+  font-size: 14px;
+  color: white;
+}
+.scroll-button {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 7px;
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  transition: all 0.3s;
+}
+.scroll-button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.scroll-button i {
+  color: white;
+  font-size: 20px;
 }

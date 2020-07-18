@@ -4,7 +4,6 @@
   height: 650px;
   background-position: 50% -200px;
   width: 100%;
-  transform: translate(0px, 0px);
   visibility: inherit;
   z-index: 20;
   background-repeat: no-repeat;
@@ -28,9 +27,49 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 .overlay {
   width: 1000px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  position: absolute;
+  top: 50;
+  left: 0;
+  display: initial;
+  z-index: 999;
+  background-color: rgba(81, 81, 81, 0.9);
+  min-width: 300px;
+  padding: 10px 15px;
+  border-radius: 0;
+}
+.dropdown-item {
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+}
+.dropdown-item:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 187, 240, 0.07) 30%,
+    rgba(57, 223, 170, 0.07) 100%
+  );
+}
+.dropdown-item:hover .sub-menu-item-text {
+  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dropdown:hover .nav-link + .dropdown-menu {
+  visibility: visible;
+  margin-top: 0;
+  opacity: 1;
 }
 .social {
   top: 26px;
@@ -47,7 +86,7 @@ a:hover .social-contact {
   background: rgba(255, 255, 255, 0.45);
 }
 
-.nav-link:hover .underline-animated span::before {
+.dropdown:hover .nav-link .underline-animated span::before {
   visibility: visible;
   transform: scaleX(1);
   -ms-transform: scaleX(1);
@@ -83,8 +122,10 @@ a:hover .social-contact {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -65%);
   color: white;
+  width: 50%;
+  z-index: 0;
 }
 .sologan h1 {
   font-family: "GlossBloom";
@@ -94,8 +135,9 @@ a:hover .social-contact {
   width: 90%;
   margin: 0 auto;
   text-align: center;
-  background-color: #889887;
+  background-color: rgba(136, 152, 135, 0.8);
 }
 .opentime p {
+  margin-top: 30px;
   font-size: 30px;
 }

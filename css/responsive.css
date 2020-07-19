@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+  .social {
+    top: 15px;
+    right: 52px;
+  }
+  .mobile-toggle-menu {
+    display: inline;
+    top: 15px;
+    right: 10px;
+  }
+}

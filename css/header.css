@@ -171,7 +171,7 @@ a:hover .social-contact {
 
 .footer {
   width: 45%;
-  padding-top: 20px;
+  padding: 50px 0;
 }
 .footer-item {
   font-size: 12px;
@@ -269,7 +269,7 @@ a:hover .social-contact {
 .scroll-button i {
   color: white;
   font-size: 20px;
-
+}
 #image-gallery .modal-footer {
   display: block;
 }
@@ -299,7 +299,7 @@ a:hover .social-contact {
 }
 .believe-wrap {
   padding: 60px 0;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
 }
@@ -314,14 +314,20 @@ a:hover .social-contact {
   color: white;
 }
 #career {
-  background-image: url(../images/Sharing-the-Love.jpg);
+  background: url("../images/church-cross-stock.jpeg"), red;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(1);
 }
 .career-item {
   text-align: center;
-  padding: 20px 30px;
+  padding: 80px 30px;
+  width: 70%;
+}
+.career-item h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
 }
 .career-button {
   border-color: white;
@@ -342,4 +348,28 @@ a:hover .social-contact {
 }
 .career-button:hover span {
   color: #666;
+}
+.thumb {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.thumbnail {
+  margin-bottom: 20px;
+}
+#about-us {
+  background-color: #444;
+  padding: 60px 0;
+}
+#about-us .img-thumbnail {
+  border: none;
+  width: 100%;
+}
+#about-us h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+  padding-bottom: 30px;
 }

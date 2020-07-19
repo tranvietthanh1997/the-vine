@@ -233,3 +233,77 @@ a:hover .social-contact {
   padding-top: 5px;
   font-size: 15px;
 }
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+.full-container {
+  padding: 0;
+}
+.visit-us-content {
+  background-color: #92a993;
+  height: 400px;
+  padding: 60px;
+}
+.visit-us-content p {
+  font-size: 18px;
+  color: white;
+}
+#believe {
+  background-color: #444;
+}
+.believe-wrap {
+  padding: 60px 0;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.believe-wrap h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.believe-wrap p {
+  font-size: 18px;
+  color: white;
+}
+#career {
+  background-image: url(../images/Sharing-the-Love.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+}
+.career-item {
+  text-align: center;
+  padding: 20px 30px;
+}
+.career-button {
+  border-color: white;
+  border-width: 2px;
+  color: white;
+  padding: 8px 20px;
+  transition: all 0.5s;
+  background-color: transparent;
+}
+.career-button:hover {
+  background-color: white;
+  color: #666;
+}
+.career-button span {
+  margin-left: 10px;
+  color: white;
+  font-size: 13px;
+}
+.career-button:hover span {
+  color: #666;
+}

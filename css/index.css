@@ -1,4 +1,5 @@
 @import "header.css";
+@import "responsive.css";
 @font-face {
   font-family: "GlossBloom";
   src: url("./../font/Gloss_And_Bloom.ttf");

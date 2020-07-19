@@ -11,4 +11,28 @@
     top: 15px;
     right: 10px;
   }
+  .background-header {
+    height: 310px;
+  }
+  .visit-us-content p {
+    font-size: 14px;
+  }
+  .believe-wrap {
+    width: 55%;
+  }
+  .career-item {
+    width: 100%;
+  }
+  .career-item h2 {
+    font-size: 25px;
+  }
+  .career-item p {
+    font-size: 13px;
+  }
+  .career-button {
+    font-size: 11px;
+  }
+  .mobile-nav {
+    display: initial;
+  }
 }

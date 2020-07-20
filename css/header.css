@@ -433,16 +433,22 @@ a:hover .social-contact {
   font-size: 20px;
   font-weight: 200;
 }
-.mobile-sub-menu {
+.mobile-sub-menu,
+.mobile-sub-menu-next-stepss {
   padding-top: 10px;
   padding-left: 20px;
   height: auto;
 }
-.mobile-sub-menu li {
+.mobile-sub-menu li,
+.mobile-sub-menu-next-steps li {
   list-style: none;
   font-size: 13px;
   padding-bottom: 10px;
 }
-.mobile-nav-expand {
-  /* transform: rotate(0deg); */
+.mobile-sub-menu li:hover,
+.mobile-sub-menu-next-steps li:hover {
+  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

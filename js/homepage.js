@@ -42,12 +42,20 @@ $(document).ready(function () {
 
   $(".mobile-nav-expand").click(function () {
     $(".mobile-sub-menu").slideToggle("slow");
-
-    console.log(isOpenSubmenu);
     if (isOpenSubmenu) {
       $(".mobile-nav-expand").animateRotate(45);
     } else {
       $(".mobile-nav-expand").animateRotate(0);
+    }
+    isOpenSubmenu = !isOpenSubmenu;
+  });
+
+  $(".mobile-nav-expand-next-steps").click(function () {
+    $(".mobile-sub-menu-next-steps").slideToggle("slow");
+    if (isOpenSubmenu) {
+      $(".mobile-nav-expand-next-steps").animateRotate(45);
+    } else {
+      $(".mobile-nav-expand-next-steps").animateRotate(0);
     }
     isOpenSubmenu = !isOpenSubmenu;
   });
